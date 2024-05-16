@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RxDataSourcesDelegate_Example' do
+  pod 'RxDataSourcesDelegate', :path => '../'
+
+  target 'RxDataSourcesDelegate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
